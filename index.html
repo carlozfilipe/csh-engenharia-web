@@ -1,133 +1,227 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nicho Soluções</title>
-    <!-------------------- STYLES -------------------->
-    <link rel="stylesheet" href="style.css" />
-    <!-------------------- ICONS -------------------->
-    <link rel="stylesheet" href="./assets/icons/style.css" />
-    <!-------------------- FONTS -------------------->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-------------------- RUBIK -------------------->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-------------------- POPPINS -------------------->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-------------------- DM SANS -------------------->
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header id="header">
-      <nav class="container">
-        <a class="logo" href="#">nicho<span>soluções</span>.</a>
-        <div class="menu">
-          <ul class="grid">
-            <li><a class="title" href="#home">Início</a></li>
-            <li><a class="title" href="#about">Sobre</a></li>
-            <li><a class="title" href="#services">Serviços</a></li>
-            <li><a class="title" href="#customers">Clientes</a></li>
-            <li><a class="title" href="#contact">Contato</a></li>
-          </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nicho Soluções</title>
+
+  <!-------------------- SWIPER JS -------------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!-------------------- ICONS -------------------->
+  <link rel="stylesheet" href="./assets/icons/style.css" />
+
+  <!-------------------- STYLES -------------------->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-------------------- FONTS -------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-------------------- RUBIK -------------------->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-------------------- POPPINS -------------------->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-------------------- DM SANS -------------------->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+  <!-------------------- HEADER -------------------->
+  <header id="header">
+    <nav class="container">
+      <a class="logo" href="#">nicho<span>soluções</span>.</a>
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Início</a></li>
+          <li><a class="title" href="#about">Sobre</a></li>
+          <li><a class="title" href="#services">Serviços</a></li>
+          <li><a class="title" href="#testimonials">Clientes</a></li>
+          <li><a class="title" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
+    </nav>
+  </header>
+
+  <main>
+    <!-------------------- HOME -------------------->
+    <section class="section" id="home">
+      <div class="container grid">
+        <div class="image">
+          <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="Ambiente" />
+        </div>
+        <div class="text">
+          <h2 class="title">Nicho Soluções em Engenharia e Arquitetura</h2>
+          <p>
+            Projetos de Combate a Incêndio, SPDA, GLP, Hidráulico,
+            Levantamento Arquitetônico, Elétrico e Estrutural. (+200 Projetos
+            Aprovados em São Luís, MA)
+          </p>
+          <a class="button" href="#contact">Entrar em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!-------------------- ABOUT -------------------->
+    <section class="section" id="about">
+      <div class="container grid">
+        <div class="image">
+          <img src="https://images.unsplash.com/photo-1451847251646-8a6c0dd1510c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="">
+        </div>
+        <div class="text">
+          <h2 class="title">Sobre Nós</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere consequatur ad eum repellendus aspernatur molestias, quo temporibus, eveniet cupiditate non laboriosam ut iure, dignissimos soluta. Sit magni inventore eaque vero!</p><br>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat provident velit natus! Nobis tenetur quam sunt ducimus corrupti dolore magni voluptate quibusdam optio, unde esse fugit laborum, aliquid asperiores.</p><br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur, voluptatibus enim quo quae repellendus ipsa similique quasi magni libero quaerat nihil iste at autem sit rerum reiciendis iusto ex?</p>
+        </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <!-------------------- SERVICES -------------------->
+    <section class="section" id="services">
+      <div class="container grid">
+
+        <header>
+          <h2 class="title">Serviços</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae molestias explicabo quia minima tempora omnis dolore eveniet reprehenderit corporis veniam tenetur at libero, quas, earum architecto mollitia exercitationem? Cumque!</p>
+        </header>
+
+        <div class="cards grid">
+
+          <div class="card">
+            <i class="icon-architecture"></i>
+            <h3 class="title">Levantamento Arquitetônico, Elétrico e Estrutural</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nemo modi sunt consectetur et molestiae sapiente ipsa? Laborum obcaecati vitae velit, blanditiis veritatis, laboriosam corporis quas nesciunt tempora facere soluta?</p>
+          </div>
+
+          <div class="card">
+            <i class="icon-fire"></i>
+            <h3 class="title">Combate a Incêndio</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci iste, odio nisi dignissimos autem voluptate minima in culpa, vel voluptatibus libero laborum sit mollitia porro sed dolore esse dolor voluptates!</p>
+          </div>
+
+          <div class="card">
+            <i class="icon-thunder"></i>
+            <h3 class="title">Sistema de proteção contra descargas atmosféricas</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga obcaecati molestiae facilis soluta consequuntur, aperiam alias iure dicta voluptates quae architecto eum non quam veritatis voluptatum deserunt enim excepturi magni?</p>
+          </div>
+
+          <div class="card">
+            <i class="icon-hydraulic"></i>
+            <h3 class="title">Hidráulico</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias enim esse tempore, consectetur dignissimos minima non amet inventore. Ea at recusandae exercitationem, odit commodi minus est. Architecto, sequi dolorem. Veniam!</p>
+          </div>
+          <div class="card">
+            <i class="icon-gas"></i>
+            <h3 class="title">Gás Liquefeito de Petróleo</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum iusto laudantium cumque illum magni, expedita animi at. Odit, tempore culpa. Obcaecati optio magni sequi assumenda illum natus aperiam repudiandae minus!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="divider-1"></div>
+
+  <!-------------------- TESTIMONIALS -------------------->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <header>
+        <h2 class="title">Depoimentos de quem confia no nosso trabalho</h2>
+      </header>
+      <div class="testimonials swiper">
+        <div class="swiper-wrapper">
+
+          <div class="testimonial swiper-slide">
+            <blockquote>
+              <p>
+                <span>&ldquo;</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestiae provident est accusamus quas distinctio atque, ea expedita cumque autem libero.
+              </p>
+              <cite>
+                <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="">
+                Nome da pessoa 1 - CEO
+              </cite>
+            </blockquote>
+          </div>
+
+          <div class="testimonial swiper-slide">
+            <blockquote>
+              <p>
+                <span>&ldquo;</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestiae provident est accusamus quas distinctio atque, ea expedita cumque autem libero.
+              </p>
+              <cite>
+                <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="">
+                Nome da pessoa 2 - CTO
+              </cite>
+            </blockquote>
+          </div>
+
+          <div class="testimonial swiper-slide">
+            <blockquote>
+              <p>
+                <span>&ldquo;</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestiae provident est accusamus quas distinctio atque, ea expedita cumque autem libero.
+              </p>
+              <cite>
+                <img src="https://randomuser.me/api/portraits/men/59.jpg" alt="">
+                Nome da pessoa 3 - C00
+              </cite>
+            </blockquote>
+          </div>
         </div>
 
-        <div class="toggle icon-menu"></div>
-        <div class="toggle icon-close"></div>
-      </nav>
-    </header>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
 
-    <main>
-      <section class="section" id="home">
-        <div class="container grid">
-          <div class="image">
-            <img
-              src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-              alt="Ambiente"
-            />
-          </div>
-          <div class="text">
-            <h2 class="title">Nicho Soluções em Engenharia e Arquitetura</h2>
-            <p>
-              Projetos de Combate a Incêndio, SPDA, GLP, Hidráulico,
-              Levantamento Arquitetônico, Elétrico e Estrutural. (+200 Projetos
-              Aprovados em São Luís, MA)
-            </p>
-            <a class="button" href="#">Entrar em contato</a>
-          </div>
-        </div>
-      </section>
+  <div class="divider-2"></div>
 
-      <div class="divider-1"></div>
+  <!-------------------- CONTACT -------------------->
+  <section class="section" id="contact">
+    <div class="container grid">
 
-      <section class="section" id="about">
-        <div class="container grid">
-          <div class="image">
-            <img src="https://images.unsplash.com/photo-1451847251646-8a6c0dd1510c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="">
-          </div>
-          <div class="text">
-            <h2 class="title">Sobre Nós</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere consequatur ad eum repellendus aspernatur molestias, quo temporibus, eveniet cupiditate non laboriosam ut iure, dignissimos soluta. Sit magni inventore eaque vero!</p><br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat provident velit natus! Nobis tenetur quam sunt ducimus corrupti dolore magni voluptate quibusdam optio, unde esse fugit laborum, aliquid asperiores.</p><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur, voluptatibus enim quo quae repellendus ipsa similique quasi magni libero quaerat nihil iste at autem sit rerum reiciendis iusto ex?</p>
-          </div>
-      </section>
+      <div class="text">
+        <h2 class="title">Entre em contato com a gente!</h2>
+        <p>Entre em contato com a <strong>nicho<span>soluçoes</span></strong>, queremos
+          tirar suas dúvidas, ouvir suas críticas e sugestões.
+        </p>
+        <a href="https://wa.me/+5598984630691" class="button" target="_blank"><i class="icon-whatsapp"></i>Entrar em contato</a>
+      </div>
 
-      <div class="divider-2"></div>
+      <div class="links">
+        <ul class="grid">
+          <li><i class="icon-phone"></i> <a href="tel:+5598984630691" target="_blank">(98) 9 8463-0691</a> </li>
+          <li><i class="icon-mail"></i> <a href="mailto:nichosolucoes@gmail.com" target="_blank">nichosolucoes@gmail.com</a></li>
+          <li><i class="icon-map-pin"></i>Rua dos Sabiás, 18 - Jardim Renascença, São Luís - MA</li>
+          <li><i class="icon-business"></i>CNPJ: 42.562.779/0001-89</li>
+        </ul>
+      </div>
 
-      <section class="section" id="services">
-        <div class="container grid">
-          
-          <header>
-            <h2 class="title">Serviços</h2>
-            <p>+200 <strong>Aprovados</strong> em São Luís, MA. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae molestias explicabo quia minima tempora omnis dolore eveniet reprehenderit corporis veniam tenetur at libero, quas, earum architecto mollitia exercitationem? Cumque!</p>
-          </header>
+    </div>
+  </section>
 
-          <div class="cards grid">
+  <!-------------------- SWIPERJS -------------------->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-            <div class="card">
-              <i class="icon-architecture"></i>
-              <h3 class="title">Levantamento Arquitetônico, Elétrico e Estrutural</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nemo modi sunt consectetur et molestiae sapiente ipsa? Laborum obcaecati vitae velit, blanditiis veritatis, laboriosam corporis quas nesciunt tempora facere soluta?</p>
-            </div>
+  <!-------------------- SCROLLREVEAL -------------------->
+  <script src="https://unpkg.com/scrollreveal"></script>
 
-            <div class="card">
-              <i class="icon-fire"></i>
-              <h3 class="title">Combate a Incêndio</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci iste, odio nisi dignissimos autem voluptate minima in culpa, vel voluptatibus libero laborum sit mollitia porro sed dolore esse dolor voluptates!</p>
-            </div>
+  <!-------------------- SCRIPTJS -------------------->
+  <script src="script.js"></script>
+</body>
 
-            <div class="card">
-              <i class="icon-thunder"></i>
-              <h3 class="title">Sistema de proteção contra descargas atmosféricas</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga obcaecati molestiae facilis soluta consequuntur, aperiam alias iure dicta voluptates quae architecto eum non quam veritatis voluptatum deserunt enim excepturi magni?</p>
-            </div>
-
-            <div class="card">
-              <i class="icon-hydraulic"></i>
-              <h3 class="title">Hidráulico</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias enim esse tempore, consectetur dignissimos minima non amet inventore. Ea at recusandae exercitationem, odit commodi minus est. Architecto, sequi dolorem. Veniam!</p>
-            </div>
-            <div class="card">
-              <i class="icon-gas"></i>
-              <h3 class="title">Gás Liquefeito de Petróleo</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum iusto laudantium cumque illum magni, expedita animi at. Odit, tempore culpa. Obcaecati optio magni sequi assumenda illum natus aperiam repudiandae minus!</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <script src="script.js"></script>
-  </body>
 </html>
