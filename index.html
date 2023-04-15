@@ -7,6 +7,8 @@
     <title>Nicho Soluções</title>
     <!-------------------- STYLES -------------------->
     <link rel="stylesheet" href="style.css" />
+    <!-------------------- ICONS -------------------->
+    <link rel="stylesheet" href="./assets/icons/style.css" />
     <!-------------------- FONTS -------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +32,18 @@
     <header id="header">
       <nav class="container">
         <a class="logo" href="#">nicho<span>soluções</span>.</a>
-        <div class="menu">...</div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#customers">Clientes</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
@@ -44,7 +57,7 @@
             />
           </div>
           <div class="text">
-            <h1>Nicho Soluções em Engenharia e Arquitetura</h1>
+            <h2 class="title">Nicho Soluções em Engenharia e Arquitetura</h2>
             <p>
               Projetos de Combate a Incêndio, SPDA, GLP, Hidráulico,
               Levantamento Arquitetônico, Elétrico e Estrutural. (+200 Projetos
@@ -57,9 +70,20 @@
 
       <div class="divider-1"></div>
 
-      <section class="section">
-        <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatibus ex omnis adipisci, voluptatem fugiat possimus explicabo. Cupiditate quidem ullam amet perferendis autem repellendus molestias? Reprehenderit consequatur quod debitis dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat commodi animi sapiente laborum molestiae aliquid quisquam odit maxime ex pariatur obcaecati laudantium provident veritatis sint expedita, sit ipsum distinctio modi.</div>
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="https://images.unsplash.com/photo-1451847251646-8a6c0dd1510c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="">
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre Nós</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere consequatur ad eum repellendus aspernatur molestias, quo temporibus, eveniet cupiditate non laboriosam ut iure, dignissimos soluta. Sit magni inventore eaque vero!</p><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat provident velit natus! Nobis tenetur quam sunt ducimus corrupti dolore magni voluptate quibusdam optio, unde esse fugit laborum, aliquid asperiores.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequatur, voluptatibus enim quo quae repellendus ipsa similique quasi magni libero quaerat nihil iste at autem sit rerum reiciendis iusto ex?</p>
+          </div>
       </section>
+
+      <div class="divider-2"></div>
     </main>
 
     <script src="script.js"></script>
