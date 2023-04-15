@@ -10,9 +10,9 @@
   --header-height: 4.5rem;
 
   /* Colors */
-  --hue: 160;
+  --hue: 140;
   /* HSL color mode */
-  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color: hsl(var(--hue) 46% 47%);
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue) 41% 10%);
