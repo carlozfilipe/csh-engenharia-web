@@ -2,7 +2,22 @@ const nav = document.querySelector('.container');
 const toggle = document.querySelectorAll('nav .toggle');
 const links = document.querySelectorAll('nav ul li a');
 const header = document.querySelector('#header');
+const backToTopButton = document.querySelector('.back-to-top');
 const navHeight = header.offsetHeight;
+
+function changeHeaderWhenScroll() {
+  window.scrollY >= navHeight
+    ? header.classList.add('scroll')
+    : header.classList.remove('scroll')
+}
+
+function backToTop() {
+  if (window.scrollY >= 560) {
+    backToTopButton.classList.add('show');
+  } else {
+    backToTopButton.classList.remove('show');
+  }
+}
 
 /* Toggle button */
 for (const element of toggle) {
@@ -13,13 +28,6 @@ for (const element of toggle) {
 for (const link of links) {
   link.addEventListener('click', () => nav.classList.remove('show'));
 }
-
-/* Change scroll */
-window.addEventListener('scroll', () =>
-  window.scrollY >= navHeight
-    ? header.classList.add('scroll')
-    : header.classList.remove('scroll')
-);
 
 /* Testimonials - SwiperJS */
 const swiper = new Swiper('.swiper', {
@@ -52,3 +60,10 @@ scrollReveal.reveal(
   `,
   { interval: 100 }
 );
+
+/* Change scroll and Back to top button*/
+window.addEventListener('scroll', function() {
+  changeHeaderWhenScroll();
+  backToTop();
+});
+
