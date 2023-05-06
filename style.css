@@ -384,6 +384,11 @@ nav.show div.icon-close {
   margin-bottom: 1.5rem;
   font-size: 5rem;
   color: var(--base-color);
+  transition: 0.5s;
+}
+
+.card i:hover { 
+  transform: scale(1.1); 
 }
 
 .card .title {
@@ -395,7 +400,12 @@ nav.show div.icon-close {
   width: 100%;
   height: 75%;
   margin-bottom: 1.5rem;
-  border-radius: 8px;
+  border-radius: 8px; 
+  transition: 0.5s;
+}
+
+.card img:hover { 
+  transform: scale(1.1); 
 }
 
 /*==================== TESTIMONIALS ====================*/
