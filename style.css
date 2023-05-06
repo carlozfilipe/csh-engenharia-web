@@ -391,6 +391,13 @@ nav.show div.icon-close {
   margin-bottom: 1rem;
 }
 
+.card img {
+  width: 100%;
+  height: 75%;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+
 /*==================== TESTIMONIALS ====================*/
 #testimonials {
   background: #fff;
@@ -641,6 +648,13 @@ footer .social a:hover {
   .card {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .card img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
   }
 
   /* Testimonials */
